@@ -25,4 +25,18 @@ $(document).ready(function () {
         duration: 1800,
         once: true
     })
+    $('.skill-percent').each(function () {
+        var $this = $(this);
+        var per = $this.attr('per');
+        $this.css("width", per+'%');
+        $({animeatedValue: 0}).animate({animeatedValue: per}, {
+            duration: 1000,
+            step: function() {
+                $this.attr('per', Math.floor(this.animeatedValue) + '%');
+            },
+            complete: function() {
+                $this.attr('per', Math.floor(this.animeatedValue) + '%');
+            }
+        });
+    });
 });
