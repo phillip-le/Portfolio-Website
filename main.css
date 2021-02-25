@@ -315,7 +315,7 @@ li{
     top: -35px;
     right: 0;
     transform: translateX(50%);
-}
+} */
 
 .skill-percent::after {
     content: '';
@@ -346,6 +346,13 @@ li{
     flex: 1;
 }
 
+.portfolio-img img {
+    width: 99%;
+}
+.portfolio-img img:hover {
+    width: 100%;
+}
+
 .portfolio-description {
     flex: 1;
 }
@@ -361,6 +368,10 @@ li{
     text-transform: uppercase;
     font-weight: 300;
     opacity: 0.3;
+}
+
+.portfolio-description p {
+    width: 95%;
 }
 
 .portfolio-description .cta {
@@ -690,5 +701,6 @@ li{
     
     .timeline .item p {
         width: 250px;
+        font-size: 2rem;
     }
 }
