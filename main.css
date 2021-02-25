@@ -425,11 +425,11 @@ li{
 .timeline .item:before {
     content: attr(data-time);
     position: absolute;
-    left: -17rem;
+    left: -20rem;
     top: 55px;
     text-align: left;
     display: block;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 .timeline .item:after {
@@ -451,7 +451,6 @@ li{
 }
 
 .timeline .item p {
-    font-size: 16px;
     line-height: 1.5;
 }
 
