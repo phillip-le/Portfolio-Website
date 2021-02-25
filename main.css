@@ -546,7 +546,7 @@ li{
     }
 
     .timeline .item:before {
-        left: -15rem;
+        left: -14rem;
         width: 130px;
         font-size: 2.5rem;
         top: 20%;
@@ -622,4 +622,42 @@ li{
 /* Targetting iPhone */
 @media screen and (max-width: 600px) {
 
+    .timeline {
+        display: block;
+        width: 100%;
+        padding-left: 2%;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        position: relative;
+    }
+      
+    .timeline:before {
+        content: "";
+        width: 3px;
+        height: 100%;
+        background-color: #4298C3;
+        position: absolute;
+        left: 2%;
+        top: 0;
+        z-index: 1;
+    }
+
+    .timeline .item:before {
+        content: attr(data-time);
+        position: relative;
+        left: 0;
+        top: 0;
+        text-align: left;
+        display: block;
+        width: 100%;
+        font-size: 1.8rem;
+    }
+
+    .timeline .item h3 {
+        width: 250px;
+    }
+    
+    .timeline .item p {
+        width: 250px;
+    }
 }
