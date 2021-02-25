@@ -273,7 +273,8 @@ li{
 .coding-skill {
     width: 100%;
     max-width: 600px;
-    padding: 0 20px;
+    /* padding: 0 0; */
+    margin: 0 auto;
 }
 
 .coding-skill-name {
