@@ -180,6 +180,8 @@ li{
     font-weight: 300;
 }
 
+/* About START */
+
 .about .container {
     display: flex;
     align-items: center;
@@ -203,13 +205,12 @@ li{
     font-weight: 300;
 }
 
-.profile-img {
-    flex: 1;
-    margin-right: 5rem;
-}
-
 .about-details {
     flex: 1;
+}
+
+.about-details p {
+    text-align: center;
 }
 
 .external-links {
@@ -228,6 +229,8 @@ li{
 .fa-linkedin:hover {
     color: #2867B2
 }
+
+/* About END */
 
 .my-skills {
     margin-top: 10rem;
