@@ -91,7 +91,7 @@ header {
     width: 100%;
     height: 100%;
     position: fixed;
-    top: -100vh;
+    top: -200vh;
     z-index: 50;
     background-color: #16162d;
     border-bottom-right-radius: 100%;
@@ -231,6 +231,8 @@ li{
 }
 
 /* About END */
+
+/* Areas of Interest */
 
 .my-skills {
     margin-top: 10rem;
@@ -621,6 +623,35 @@ li{
 
 /* Targetting iPhone */
 @media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 2.3rem;
+    }
+
+    .landing-text h6 {
+        font-size: 3rem;
+    }
+
+    .menu-toggler {
+        top: 4%;
+        right: 8%;
+    }
+
+    .about-details p {
+        font-size: 2.5rem;
+    }
+
+    .section-heading h1 {
+        font-size: 5rem;
+    }
+
+    .section-heading h6 {
+        font-size: 2rem;
+    }
 
     .timeline {
         display: block;
